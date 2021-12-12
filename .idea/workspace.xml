@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cd883bd-47d2-42a3-926f-ac81cb5aaca0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/sqr/SQRService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/sqr/SQRService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/sqr/SQRServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/sqr/SQRServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SQRServiceTest.runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SQRServiceTest.runner10 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="root" />
       <extension name="coverage">
         <pattern>
@@ -80,7 +81,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.sqr" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.sqr.SQRServiceTest" />
-      <option name="METHOD_NAME" value="runner" />
+      <option name="METHOD_NAME" value="runner10(java.lang.String,int,int,int,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SQRServiceTest.runner10 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="root" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.sqr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.sqr" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.sqr.SQRServiceTest" />
+      <option name="METHOD_NAME" value="runner10(java.lang.String,int,int,int,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,29 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SQRServiceTest.runner100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="root" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.sqr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.sqr" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.sqr.SQRServiceTest" />
-      <option name="METHOD_NAME" value="runner100" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SQRServiceTest.runner10" />
-        <item itemvalue="JUnit.SQRServiceTest.runner100 (1)" />
-        <item itemvalue="JUnit.SQRServiceTest.runner100" />
-        <item itemvalue="JUnit.SQRServiceTest.runner" />
+        <item itemvalue="JUnit.SQRServiceTest.runner10 (2)" />
+        <item itemvalue="JUnit.SQRServiceTest.runner10 (1)" />
         <item itemvalue="JUnit.SQRServiceTest" />
+        <item itemvalue="JUnit.SQRServiceTest.runner100 (1)" />
       </list>
     </recent_temporary>
   </component>
