@@ -1,16 +1,14 @@
 package ru.netology.sqr;
 
 public class SQRService {
-    public long runner(int counter, int x, int y) {
-        counter = 0;
-        for (int i = x; i >= 10; i++) {
-            for (int j = y; j <= 99; j++)
-                if (i * i >= 100 && i * i <= 250)
-                    if (j * j >= 100 && j * j <= 250) {
-                        counter++;
-                    }
-                return counter;
+
+    public int rangeBoundaries(int lowerRange, int upperRange) {
+        int count = 0;
+        for (int i = 10; i <= 99; i++) {
+            if (i * i >= lowerRange && i * i <= upperRange) {
+                count++;
+            }
         }
-        return counter;
+        return count;
     }
 }

@@ -55,7 +55,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SQRServiceTest.runner10 (2)">
+  <component name="RunManager" selected="JUnit.SQRServiceTest">
     <configuration name="SQRServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="root" />
       <extension name="coverage">
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SQRServiceTest" />
         <item itemvalue="JUnit.SQRServiceTest.runner10 (2)" />
         <item itemvalue="JUnit.SQRServiceTest.runner10 (3)" />
         <item itemvalue="JUnit.SQRServiceTest.runner10" />
         <item itemvalue="JUnit.SQRServiceTest.runner10 (1)" />
-        <item itemvalue="JUnit.SQRServiceTest" />
       </list>
     </recent_temporary>
   </component>

@@ -1,21 +1,40 @@
 package ru.netology.sqr;
 
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class SQRServiceTest {
 
-    @ParameterizedTest
-    @CsvSource(value = {"'number of numbers that works', 10,15,0,6", "'number of numbers that not works', 9,16,0,0"})
-    void runner10(String name, int x, int y, int counter, int expected) {
-        SQRService service = new SQRService();
-
-        long actual = service.runner(x,y,counter);
-
-
+    @Test
+    public void shouldRangeBoundariesValid() {
+        SQRService sqrService = new SQRService();
+        int expected = 3;
+        int actual = sqrService.rangeBoundaries(200, 300);
         assertEquals(expected, actual);
+    }
 
+    @Test
+    public void shouldRangeBoundariesInvalid() {
+        SQRService sqrService = new SQRService();
+        int expected = 0;
+        int actual = sqrService.rangeBoundaries(0, 0);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void shouldRangeBoundariesMax() {
+        SQRService sqrService = new SQRService();
+        int expected = 90;
+        int actual = sqrService.rangeBoundaries(100, 1_000_000);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void shouldRangeBoundariesMin() {
+        SQRService sqrService = new SQRService();
+        int expected = 1;
+        int actual = sqrService.rangeBoundaries(100, 100);
+        assertEquals(expected, actual);
     }
 }
